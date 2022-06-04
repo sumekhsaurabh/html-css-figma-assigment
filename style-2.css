@@ -1,0 +1,148 @@
+@media screen and (max-width: 700px) {
+    .nav-text {
+      display: none;
+    }
+    .buger{
+        display: block;
+    }
+    .heading{
+        font-size: 30px;
+
+    }
+    .header-para p{
+        font-size: 14px;
+    }
+    .header-btn button{
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+    }
+    .small-card {
+        left:30px;
+        width: 290px;
+        top:-190px;
+    }
+    .dotted-image-container {
+        width: 100%;
+        margin-top: 224px;
+    }
+    .hash-tag-container {
+        width: 100%;
+    }
+    .section-container-activity{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  @media screen and (min-device-width: 700px) and (max-device-width: 900px){
+    .nav-text{
+        /* padding: 0px -10px 0px -10px; */
+        /* width: 400px; */
+    }
+    /* .nav-text{
+       width: 450px; 
+    } */
+    .small-card {
+        left:300px;
+        width: 290px;
+        top:-50px;
+    }
+    .dotted-image-container {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .hash-tag-container {
+        width: 100%;
+    }
+    .box-a-title-style{
+        font-size:28px ;
+        line-height: 38px;
+    }
+    .box-a-para-style{
+        font-size:14px ;
+        line-height: 25px;
+    }
+    .upper-box-a-learn-more{
+        margin-top: 15px;
+    }
+    #margin-1{
+        /* margin-top: 20px; */
+        margin: 20px 0px 0px 30px;
+    }
+    #margin-2{
+        /* margin-top: 20px; */
+        margin: 0px 0px 0px -30px;
+    }
+    /* .lower-content{
+        display: flex;
+        justify-content: center;
+    } */
+    .box-frist-title{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .box-frist-para{
+        font-size:14px ;
+        line-height: 25px;
+        margin-top: 12px;
+    }
+    .box-second{
+        margin-top: 40px;
+    } 
+  #image-2{
+      display: none;
+  }
+  #image-5{
+    display: none;
+}
+#image-6{
+    display: none;
+}
+#image-8{
+    display: none;
+}
+#image-11{
+    display: none;
+}
+#image-12{
+    display: none;
+}
+#image-14{
+    display: none;
+}
+#image-15{
+    display: none;
+}
+}
+@media screen and (min-device-width: 900px) and (max-device-width: 1250px){
+    #image-11{
+        display: none;
+    }
+    #image-15{
+        display: none;
+    }
+    #image-2{
+        display: none;
+    }
+    #image-5{
+        display: none;
+    }
+    #image-6{
+        display: none;
+    }
+}
+
+  @media screen and (min-device-width: 700px) and (max-device-width: 823px){
+    .box-a-title-style{
+        /* padding: 0px 40px 0px 0px; */
+    }
+    .small-card {
+        left:200px;
+        width: 290px;
+        top:-80px;
+    }
+    .box-frist-para{
+
+    }
+  }

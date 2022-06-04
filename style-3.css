@@ -1,0 +1,296 @@
+.section-3{
+    width: 100%;
+    height: 2086px;
+    border: 1px solid red;
+    background-color: #F9FBFE;
+
+}
+/* .section-3-title */
+.title-style{
+    font-family: HK Groteak;
+    /* font-size: 40px; */
+    font-size: 2.5em;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    color: #183B56;
+    margin-top: 100px;
+}
+.para-style {
+    /* width: 616px; */
+    /* height: 64px; */
+    border: 1px solid orange;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    /* font-size: 18px; */
+    font-size: 1.12em;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 24px; 
+    color: #183B56;
+    /* padding: 0px 0px 0px 80px; */
+}
+.section-3-boxes{
+    margin: 64px 247px 0px 247px;
+}
+.size{
+    width: 458px;
+    height: 480px;
+    border: 1px solid red;
+    background-color:#FFFFFF;
+    border-radius: 8px; 
+
+}
+.section-3-2{
+    margin: 30px 0px 0px 0px;
+}
+.position {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.card-title-style {
+    margin-bottom: 18px;
+    /* width: 246px; */
+    width: 100%;
+    font-family: HK Grotesk;
+    /* font-size: 24px; */
+    font-size: 1.5em;
+    font-size: 0.791;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    text-align: center;
+    color: #183B56;
+}
+.card-para-style {
+    margin-bottom: 48px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-size: 16px; */
+    font-size: 1em;
+    line-height: 28px;
+    color: #5A7184;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: top;
+}
+.image-positions {
+    position: absolute;
+}
+
+#card-image-1 {
+    top: 42px;
+    left: 183px;
+    /* top: 9.17%;
+    left: 39.95%; */
+}
+
+#card-image-2 {
+    top: 106px;
+    left: 69px;
+    /* top: 23.14%;
+    left: 15.6%; */
+}
+
+#card-image-3 {
+    top: 142px;
+    right: 71px;
+    /* top: 31%;
+    left: 15.5%; */
+}
+
+#card-image-4 {
+    top: 168px;
+    left: 161px;
+     /* top: 36.6%;
+     left: 35.15%; */
+} 
+
+#card-image-5 {
+    top: 208px;
+    right: 171px;
+    /* top: 45.41%;
+    left: 37.33%; */
+}
+
+#card-image-6 {
+    top: 255px;
+    left: 198px;
+    /* top: 53.12%;
+    left: 44%; */
+}
+
+
+.card-3-box {
+    width: 144px;
+    height: 168px;
+    position: absolute;
+}
+
+#box-1 {
+    top: 88px;
+    left: 85px;
+}
+
+#box-2 {
+    top: 124px;
+    left: 162px;
+}
+
+#box-3 {
+    top: 48px;
+    left: 230px;
+}
+
+#box-4 {
+    position: absolute;
+    top: 35px;
+    left: 206px;
+}
+
+#box-5 {
+    position: absolute;
+    top: 276px;
+    left: 71px;
+}
+.line-3{
+    /* width: 1140px; */
+    width: 76%;
+    height: 0px;
+    border: 1px dashed red;
+    margin-top: 100px;
+}
+
+
+/* crousal-- */
+
+.lefts {
+    margin-top: 88px;
+}
+
+.inner-lefts {
+    /* width: 980px; */
+    width: 65.33%;
+    /* height: 56px; */
+    border: 1px solid red;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.crousal-btn-style {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 2px solid #183B56;
+    background-color: #F9FBFE;
+
+
+
+}
+
+#crousal-btn-1 {
+    border-color: #959EAD;
+}
+
+#crousal-btn-2 {
+    border-color: #183B56;
+    /* margin-right: -10px;    */
+}
+
+.lefts-title {
+    font-weight: 700;
+    font-family: HK Grotesk;
+    /* font-size: 36px; */
+    font-size: 2.25em;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #183B56;
+}
+
+.lefts-title img {
+    margin: 0px 0px 0px -35px;
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.last-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 48px 0px 0px 217px;
+    flex-wrap: wrap;
+}
+
+.cards-size {
+    width: 555px;
+    /* width: 37%; */
+    height: 388px;
+    border: 1px solid black;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+}
+
+.last-cards-1-images ul {
+    display: flex;
+}
+
+.last-cards-1-images ul li {
+    list-style: none;
+}
+
+.last-cards-1-images ul li:first-child {
+    margin: 44px 36px 0px 0px;
+}
+
+.last-cards-1-images ul li:not(:first-of-type) {
+    margin: 62px 16px 0px 16px;
+}
+
+.last-cards-1-para {
+    display: flex;
+    justify-content: center;
+}
+
+.last-cards-1-para div {
+    /* width: 475px; */
+    width: 85.5%;
+    /* height: 108px; */
+    border: 1px solid black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: left;
+    color: #183B56;
+    margin-top: 36px;
+
+}
+
+.last-cards-1-para-1 {
+    font-family: GK Grotesk;
+    /* font-size: 20px; */
+    font-size: 1.25em;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #183B56;
+
+    font-weight: 600;
+    margin: 31px 0px 0px 40px;
+
+}
+
+.last-cards-1-para-2 {
+    font-family: GK Grotesk;
+    /* font-size: 16px; */
+    font-size: 1em;
+    line-height: 28px;
+    /* letter-spacing: 0.2px; */
+    color: #5A7184;
+    font-weight: 400;
+    margin: 10px 0px 0px 40px;
+
+}
