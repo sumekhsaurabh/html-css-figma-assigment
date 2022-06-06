@@ -6,279 +6,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-2.css">
     <link rel="stylesheet" href="style-3.css">
     <link rel="stylesheet" href="style-header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style-2.css">
 
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/all.css">
+    
     <title>Document</title>
     <style>
-        .topnav {
-            overflow: hidden;
-            background-color: #faebd7;
+        .round{
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: #36B37E;
+            align-items: center;
+            padding-left: 8px;
+            /* align-content: center; */
+         margin: auto 0px auto 0px;
         }
-
-        .topnav a {
-            float: right;
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            background-color: #faebd7;
+        .line{
+            margin: auto 0px auto 0px;
         }
-
-        .topnav img {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            text-decoration: none;
-            font-size: 17px;
-            margin-left: 30px
+        .line-1{
+            width: 56px;
+            height: 6px;
+            /* background-color: black; */
+            margin-bottom: 10px;
+            background-color: 
+#B3BAC5;
+border-radius: 2px;
+            
         }
-
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        .topnav a.active {
-            background-color: #04AA6D;
-            color: black;
-        }
-
-        .topnav .icon {
-            display: none;
-        }
-
-        @media screen and (max-width: 600px) {
-            .topnav a:not(:first-child) {
-                display: none;
-            }
-
-            .topnav a.icon {
-                float: right;
-                display: block;
-            }
-        }
-
-        @media screen and (max-width: 600px) {
-            .topnav.responsive {
-                position: relative;
-            }
-
-            .topnav.responsive .icon {
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-
-            .topnav.responsive a {
-                float: none;
-                display: block;
-                text-align: right;
-            }
-
-            .topnav.responsive .firstItem {
-                margin-top: 50px;
-            }
-        }
-
-        /* crousal-- */
-        * {
-            box-sizing: border-box
-        }
-
-        .mySlides1,
-        .mySlides2 {
-            display: none
-        }
-
-        img {
-            vertical-align: middle;
-        }
-
-        /* Slideshow container */
-        .slideshow-container {
-            /* max-width: 1000px; */
-            max-width: 555px;
-            /* max-width: 360; */
-            position: relative;
-            margin: auto;
-        }
-
-        /* Next & previous buttons */
-        .prev,
-        .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            padding: 16px;
-            margin-top: -22px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-            color: black;
-            background-color: black;
-        }
-
-        /* Position the "next button" to the right */
-        .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-        }
-
-        /* On hover, add a grey background color */
-        .prev:hover,
-        .next:hover {
-            background-color: #f1f1f1;
-            color: black;
-        }
-
-
-        /* crousal-box-- */
-        .last-cards{
-            display: flex;
-            justify-content: space-evenly;
-            /* margin:0px 0px 0px 217px ; */
-            /* margin:0px 0px 0px 0px ; */
-        }
-        .cards-size{
-            width: 555px;
-            /* height: 388px; */
-            border: 1px solid black;
-            width:100%
+        .line-2{
+            width: 96px;
+            height: 6px;
+            background-color:#F5F5F5;
+           
         }
 
 
 
-
-
-        .last-cards-1-images ul {
-            display: flex;
+        .empty-box {
+            width: 85%;
+            height: 1px;
+            border: 1px dashed #183B56;
+            /* margin-top: 32px; */
+            margin: 30px 0px 0px 44px;
+           
         }
 
-        .last-cards-1-images ul li {
-            list-style: none;
-        }
-
-        .last-cards-1-images ul li:first-child {
-            margin: 44px 36px 0px 0px;
-        }
-
-        .last-cards-1-images ul li:not(:first-of-type) {
-            margin: 62px 16px 0px 16px;
-        }
-
-        .last-cards-1-para {
-            display: flex;
-            justify-content: center;
-        }
-
-        .last-cards-1-para div {
-            /* width: 475px; */
-            /* height: 108px; */
-            border: 1px solid black;
+        .right-lower-para {
+            /* width: 395px; */
+            /* height: 48px; */
+            /* border: 1px solid green; */
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            line-height: 24px;
             font-weight: 400;
-            font-size: 20px;
-            line-height: 36px;
             text-align: left;
             color: #183B56;
-            margin-top: 36px;
+            /* margin-top: 27px; */
+            margin: 27px 0px 0px 45px;
+            /* padding: 0px 40px 0px 40px; */
 
         }
-
-        .last-cards-1-para-1 {
-            font-family: GK Grotesk;
-            font-size: 20px;
-            line-height: 24px;
-            letter-spacing: 0.2px;
-            color: #183B56;
-
-            font-weight: 600;
-            margin: 31px 0px 0px 40px;
-
-        }
-
-        .last-cards-1-para-2 {
-            font-family: GK Grotesk;
-            font-size: 16px;
-            line-height: 28px;
-            /* letter-spacing: 0.2px; */
-            color: #5A7184;
-            font-weight: 400;
-            margin: 10px 0px 0px 40px;
-
-        }
-
-        /* crousal-titale-- */
-        .lefts{
-           display: flex;
-           justify-content: center;
-           margin-top: 88px;
-        }
-        .inner-lefts{
-            width: 980px;
-            /* width: 1000%; */
-            height: 56px;
-            border: 1px solid red;
-            display: flex;
-            justify-content: space-between;
-        }
-        .crousal-btn-style{
-           width: 56px;
-           height: 56px;
-           border-radius: 50%;
-           border: 2px solid #183B56; 
-           background-color: #F9FBFE; 
-   
        
-
-        }
-        #crousal-btn-1{
-           border-color: #959EAD;
-        }
-        #crousal-btn-2{
-           border-color:#183B56 ;
-           /* margin-right: -10px;    */
-        }
-        .lefts-title{
-            font-weight: 700;
-            font-family: HK Grotesk;
-            font-size: 36px;
-            line-height: 42px;
-            letter-spacing: 0.2px;
-            color:#183B56 ;
-        }
-        .lefts-title img{
-            margin: 0px 0px 0px -35px;
-            width: 16px;
-            height: 16px;
-        }
+       
+       
     </style>
 </head>
 
 <body>
+    <!-- <div class="header"> -->
+    <!-- <div class="inner-header"> -->
+
     <div class="topnav" id="myTopnav">
         <img src="assets/Logo.png" alt="">
-        <a class="firstItem" href="#news">Home</a>
-        <a href="#contact">Landing</a>
-        <a href="#about">Pages</a>
-        <a href="#about">Docs</a>
-        <a href="#about">Help</a>
+        <a class="firstItem" href="#news"><button>Get it now</button></a>
+        <a class="firstItem" href="#news">Help</a>
+        <a href="#contact">Docs </a>
+        <a href="#about">Pages <i class="fa fa-angle-down"></i></a>
+        <a href="#about">Landing <i class="fa fa-angle-down"></i></a>
+        <a href="#about">Home</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+            <i class="fa fa-bars" style="font-size: 30px;"></i>
         </a>
     </div>
 
+
+
     <div class="hero">
+        <!-- <div class="topnav" id="myTopnav">
+            <img src="assets/Logo.png" alt="">
+            <a class="firstItem" href="#news">Home</a>
+            <a href="#contact">Landing</a>
+            <a href="#about">Pages</a>
+            <a href="#about">Docs</a>
+            <a href="#about">Help</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+           </div> -->
         <div class="header-title d-flex-wrap-center">
             <div class="heading">
                 Track Instagram <br />
@@ -303,15 +133,29 @@
             <div class="upper-card-inner">
                 <div class="upper-card-box">
 
-                    <div class="upper-card-title">h osting review</div>
+                    <div class="upper-card-title">hosting      review</div>
                     <img id="like-card" src="like-card.png" alt="">
-                    <div class="upper-card-box-1 box-size">
+                    <div class="upper-card-box-1 box-size d-flex-wrap-s-around">
+                        <!-- <div class="round"></div> -->
+                        <div class="line response">
+                            <div class="line-1"></div>
+                            <div class="line-2"></div>
+                        </div>
+                    </div>
+                    <div class="upper-card-box-2 box-size d-flex-wrap-s-around">
+                      <div class="round response"></div>
+                      <div class="line response">
+                          <div class="line-1"></div>
+                          <div class="line-2"></div>
+                      </div>
 
                     </div>
-                    <div class="upper-card-box-2 box-size">
-
-                    </div>
-                    <div class="upper-card-box-3 box-size">
+                    <div class="upper-card-box-3 box-size d-flex-wrap-s-around">
+                        <div class="round response"  style="background-color:#00B8D9 ;"></div>
+                      <div class="line response">
+                          <div class="line-1"></div>
+                          <div class="line-2"></div>
+                      </div>
 
                     </div>
                     <div class="upper-card-box-4 box-size box-4-dashed">
@@ -336,9 +180,10 @@
                         <div class="post-type-image">
                             <img src="type-post-image.png" alt="">
                         </div>
-                        <div class="image-video">
+                        <div class="image-video d-flex-wrap-s-between">
                             <div><img src="dott-2.png" alt=""><span> image</span></div>
-                            <div> <img src="dott.png" alt=""><span>video</span></div>
+                            <div> <img src="dott.png" alt="" style="padding-right: 4px;"><span>video</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -348,8 +193,8 @@
 
         <!-- upper-card-end -->
     </div>
-    </div>
-    </div>
+    <!-- </div> -->
+    <!-- </div> -->
 
     <!-- section-2-- -->
 
@@ -375,13 +220,14 @@
                     impressions to give you the insights.
                 </div>
                 <div class="upper-box-a-learn-more">
-                    Learn More
+                    Learn More<i class='fas fa-arrow-right'></i>
                 </div>
             </div>
             <div class="section-division">
                 <img src="assets/graph-2.png" alt="" style="width:100%" id="margin-1">
             </div>
         </div>
+    
     </div>
 
     <div class="w-full d-flex-wrap-center">
@@ -400,6 +246,18 @@
                         ensure
                         that your content reaches the right people.
                     </div>
+
+                    <div class="empty-box">
+
+                    </div>
+                    <div class="right-lower-para">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                        Data about audiece can be accessed on Ehya Apps. You can <br> download Ehya
+                        apps on Google Play & App Store.
+                    </div>
+
+
+                </div>
 
                 </div>
             </div>
@@ -435,7 +293,7 @@
         <div class="section-container-activity">
             <div class="section-division">
                 <div class="box-frist">
-                    <div class="box-frist-title">
+                    <div class="box-frist-title ">
                         Audience Activity
                     </div>
                     <div class="box-frist-para">
@@ -468,36 +326,66 @@
         </div>
     </div>
 
-    <div class="w-full hash-tag-area d-flex-wrap-center">
+    <div class="w-full hash-tag-area d-flex-wrap-center ">
         <div class="hash-tag-container">
             <div class="hash-tag-text-container w-full">
                 <div class="w-full title-style text-center">Track any hashtag(s) Performance</div>
                 <div class="w-full para-style text-center d-flex-wrap-center">
                     <div>
-                        section-3-titleDon’t waste time on search manual tasks. Let Automation do it for
+                        Don’t waste time on search manual tasks. Let Automation do it for
                         you.<br />
                         Simplify workflows, reduce errors, and save time.
                     </div>
                 </div>
                 <div class="box-container">
-                    <div class="box-3-1-a size position align-self">
-                        <!-- <img src="graph.png" alt="" style="width:100%"> -->
+                    <div class=" w-full d-flex-wrap-s-around">
+                        <div class="box-3-1-a size position align-self">
+                            <img src="graph.png" alt="" style="width:100%">
 
-                        <!-- <div class="boxes-1-b-title card-title-style ">
+                            <!-- <div class="boxes-1-b-title card-title-style ">
+                                Influencers by hashtag
+                            </div>
+                            <div class="boxes-1-b-para  card-para-style">
+                                Identify the most influential people posting with
+                                your hashtag
+                            </div> -->
+                        </div>
+                        <div class="box-3-1-b m-t size position align-self size-responsive">
+                            <img id="card-image-1" class="image-positions" src="card-image-1.png" alt="">
+                            <img id="card-image-2" class="image-positions" src="card-image-2.png" alt="">
+                            <img id="card-image-3" class="image-positions" src="card-image-3.png" alt="">
+                            <img id="card-image-4" class="image-positions" src="card-image-4.png" alt="">
+                            <img id="card-image-5" class="image-positions" src="card-image-5.png" alt="">
+                            <img id="card-image-6" class="image-positions" src="card-image-6.png" alt="">
+                            <div class="boxes-1-b-title card-title-style ">
+                                Influencers by hashtag
+                            </div>
+                            <div class="boxes-1-b-para  card-para-style">
+                                Identify the most influential people posting with
+                                your hashtag
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" box-container d-flex-wrap-s-between size-responsives">
+                <div class="new w-full d-flex-wrap-s-around ">
+                    <div class="box-3-2-a size  position align-self ">
+                        <img class="card-3-box" id="box-3" src="card-3-image-3.png" alt="">
+                        <img class="card-3-box" id="box-1" src="card-3-image-1.png" alt="">
+                        <img class="card-3-box" id="box-2" src="card-3-image-2.png" alt="">
+                        <img src="image7.png" id="box-4" alt="">
+                        <img src="image1.png" id="box-5" alt="">
+                        <div class="boxes-1-b-title card-title-style ">
                             Influencers by hashtag
                         </div>
                         <div class="boxes-1-b-para  card-para-style">
                             Identify the most influential people posting with
                             your hashtag
-                        </div> -->
+                        </div>
                     </div>
-                    <div class="box-3-1-b m-t size position align-self">
-                        <img id="card-image-1" class="image-positions" src="card-image-1.png" alt="">
-                        <img id="card-image-2" class="image-positions" src="card-image-2.png" alt="">
-                        <img id="card-image-3" class="image-positions" src="card-image-3.png" alt="">
-                        <img id="card-image-4" class="image-positions" src="card-image-4.png" alt="">
-                        <img id="card-image-5" class="image-positions" src="card-image-5.png" alt="">
-                        <img id="card-image-6" class="image-positions" src="card-image-6.png" alt="">
+                    <div class="box-3-2-b size position align-self size-responsive">
+                        <img src="image27.png" alt="" style="margin-bottom:12px; width: 100%;height: 100%;">
                         <div class="boxes-1-b-title card-title-style ">
                             Influencers by hashtag
                         </div>
@@ -508,169 +396,140 @@
                     </div>
                 </div>
             </div>
-            <div class="box-container">
-                <div class="box-3-2-a size  position align-self">
-                    <img class="card-3-box" id="box-3" src="card-3-image-3.png" alt="">
-                    <img class="card-3-box" id="box-1" src="card-3-image-1.png" alt="">
-                    <img class="card-3-box" id="box-2" src="card-3-image-2.png" alt="">
-                    <img src="image7.png" id="box-4" alt="">
-                    <img src="image1.png" id="box-5" alt="">
-                    <div class="boxes-1-b-title card-title-style ">
-                        Influencers by hashtag
-                    </div>
-                    <div class="boxes-1-b-para  card-para-style">
-                        Identify the most influential people posting with
-                        your hashtag
-                    </div>
-                </div>
-                <div class="box-3-2-b size position align-self">
-                    <img src="image27.png" alt="" style="margin-bottom:12px; width: 100%;height: 100%;">
-                    <div class="boxes-1-b-title card-title-style ">
-                        Influencers by hashtag
-                    </div>
-                    <div class="boxes-1-b-para  card-para-style">
-                        Identify the most influential people posting with
-                        your hashtag
-                    </div>
 
-                </div>
-                <!-- crousal-box-- -->
 
-                <!-- <div class="last-cards-1 cards-size">
-                    <div class="last-cards-1-images">
-                        <ul>
-                            <li><img src="man-1.png" alt=""></li>
-                            <li><img src="star-image.png" alt=""></li>
-                            <li><img src="star-image.png" alt=""></li>
-                            <li><img src="star-image.png" alt=""></li>
-                            <li><img src="star-image.png" alt=""></li>
-                            <li><img src="star-image.png" alt=""></li>
+            <!-- crousal-- -->
 
-                        </ul>
-                    </div>
-                    <div class="last-cards-1-para">
-                        <div> “With Ehya, we’re able to easily track our performance in full detail. It’s become an
-                            essential tool for us to
-                            grow and engage with our audience.”
-                        </div>
-                    </div>
-                    <p class="last-cards-1-para-1">Jaquon Hart</p>
-                    <p class="last-cards-1-para-2">Digital Marketing Executive, Hypebeast</p>
-                </div> -->
+            <!-- <h2 style="text-align:center">Multiple Slideshows</h2> -->
 
-                <!-- crousal-- -->
+            <!-- <p>Slideshow 1:</p> -->
 
-                <!-- <h2 style="text-align:center">Multiple Slideshows</h2> -->
-
-                <!-- <p>Slideshow 1:</p> -->
-                <div class="lefts">
+            <!-- <div class="lefts">
                     <div class="inner-lefts">
                         <div class="lefts-title">
                             <img src="chat-icon.png" alt=""> &nbspEhya is loved by users
                         </div>
                         <div class="crousal-btn">
-                            <button id="crousal-btn-1" class="crousal-btn-style" onclick="plusSlides(-1, 0)"><img src="arrow-image-1.png" alt=""/></button>
-                            <button id="crousal-btn-2" class="crousal-btn-style" onclick="plusSlides(1, 0)"><img src="arrow-image.png" alt=""/></button>
+                            <button id="crousal-btn-1" class="crousal-btn-style" onclick="plusSlides(-1, 0)"><img
+                                    src="arrow-image-1.png" alt="" /></button>
+                            <button id="crousal-btn-2" class="crousal-btn-style" onclick="plusSlides(1, 0)"><img
+                                    src="arrow-image.png" alt="" /></button>
                         </div>
                     </div>
+                </div> -->
+
+<!-- crousal-btn- -->
+
+<div class="crousal-btn d-flex-wrap-center">
+    <div class="crousal-btn-inner d-flex-wrap-s-between">
+        <div class="crousal-title">Ehya is loved by users</div>
+        <div class="circle d-flex-wrap-s-around" style="width: 30%;">
+            <button class="crousal-btn-style" id="crousal-btn-1" onclick="plusSlides(-1, 0)"><img src="arrow-image-1.png" alt=""></button>
+            <button class="crousal-btn-style" id="crousal-btn-2" onclick="plusSlides(1, 0)"> <img src="arrow-image.png" alt=""></button>
+        </div>
+
+    </div>
+</div>
+
+<!-- end- -->
+            <div class="slideshow-container">
+                <div class="mySlides1">
+
+                    <!-- start -->
+
+                    <div class="last-cards-1 cards-size">
+                        <div class="last-cards-1-images">
+                            <ul>
+                                <li><img src="man-1.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+
+                            </ul>
+                        </div>
+                        <div class="last-cards-1-para">
+                            <div> “With Ehya, we’re able to easily track our performance in full detail. It’s become
+                                an
+                                essential tool for us to
+                                grow and engage with our audience.”
+                            </div>
+                        </div>
+                        <p class="last-cards-1-para-1">Jaquon Hart</p>
+                        <p class="last-cards-1-para-2">Digital Marketing Executive, Hypebeast</p>
+                    </div>
+
+
+                    <!-- end-- -->
+                    <!-- <img src="graph-1.png" style="width:100%"> -->
                 </div>
 
-               
-                <div class="slideshow-container">
-                    <div class="mySlides1">
-
-                        <!-- start -->
-
-                        <div class="last-cards-1 cards-size">
-                            <div class="last-cards-1-images">
-                                <ul>
-                                    <li><img src="man-1.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-        
-                                </ul>
-                            </div>
-                            <div class="last-cards-1-para">
-                                <div> “With Ehya, we’re able to easily track our performance in full detail. It’s become an
-                                    essential tool for us to
-                                    grow and engage with our audience.”
-                                </div>
-                            </div>
-                            <p class="last-cards-1-para-1">Jaquon Hart</p>
-                            <p class="last-cards-1-para-2">Digital Marketing Executive, Hypebeast</p>
+                <div class="mySlides1">
+                    <div class="last-cards-2 cards-size">
+                        <div class="last-cards-1-images">
+                            <ul>
+                                <li><img src="man-2.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="blank-star.png" alt=""></li>
+                            </ul>
                         </div>
-
-
-                        <!-- end-- -->
-                        <!-- <img src="graph-1.png" style="width:100%"> -->
-                    </div>
-
-                    <div class="mySlides1">
-                        <div class="last-cards-2 cards-size">
-                            <div class="last-cards-1-images">
-                                <ul>
-                                    <li><img src="man-2.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="blank-star.png" alt=""></li>
-                                </ul>
+                        <div class="last-cards-1-para">
+                            <div>“With Ehya, we’re able to easily track our performance in full detail. It’s become
+                                an
+                                essential tool for us to grow
+                                and engage with our audience.”
                             </div>
-                            <div class="last-cards-1-para">
-                                <div>“With Ehya, we’re able to easily track our performance in full detail. It’s become an
-                                    essential tool for us to grow
-                                    and engage with our audience.”
-                                </div>
-                            </div>
-                            <p class="last-cards-1-para-1">Harinder Bharwal</p>
-                            <p class="last-cards-1-para-2">Product Manager of Salestation Asia</p>
                         </div>
-                        <!-- <img src="graph-2.png" style="width:100%"> -->
+                        <p class="last-cards-1-para-1">Harinder Bharwal</p>
+                        <p class="last-cards-1-para-2">Product Manager of Salestation Asia</p>
                     </div>
+                    <!-- <img src="graph-2.png" style="width:100%"> -->
+                </div>
 
-                    <div class="mySlides1">
-                        <div class="last-cards-1 cards-size">
-                            <div class="last-cards-1-images">
-                                <ul>
-                                    <li><img src="man-1.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-                                    <li><img src="star-image.png" alt=""></li>
-        
-                                </ul>
-                            </div>
-                            <div class="last-cards-1-para">
-                                <div> “With Ehya, we’re able to easily track our performance in full detail. It’s become an
-                                    essential tool for us to
-                                    grow and engage with our audience.”
-                                </div>
-                            </div>
-                            <p class="last-cards-1-para-1">Jaquon Hart</p>
-                            <p class="last-cards-1-para-2">Digital Marketing Executive, Hypebeast</p>
+                <div class="mySlides1">
+                    <div class="last-cards-1 cards-size">
+                        <div class="last-cards-1-images">
+                            <ul>
+                                <li><img src="man-1.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+                                <li><img src="star-image.png" alt=""></li>
+
+                            </ul>
                         </div>
-                        <!-- <img src="graph.png" style="width:100%"> -->
+                        <div class="last-cards-1-para">
+                            <div> “With Ehya, we’re able to easily track our performance in full detail. It’s become
+                                an
+                                essential tool for us to
+                                grow and engage with our audience.”
+                            </div>
+                        </div>
+                        <p class="last-cards-1-para-1">Jaquon Hart</p>
+                        <p class="last-cards-1-para-2">Digital Marketing Executive, Hypebeast</p>
                     </div>
+                    <!-- <img src="graph.png" style="width:100%"> -->
+                </div>
 
-                    <!-- <button class="prev" onclick="plusSlides(-1, 0)">preview</button>
+                <!-- <button class="prev" onclick="plusSlides(-1, 0)">preview</button>
                     <button class="next" onclick="plusSlides(1, 0)">next</button> -->
 
-                    <!-- <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a> 
+                <!-- <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a> 
                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a> -->
-                </div>
-
-
-
-
-                <!-- crousal end -->
             </div>
 
+
+
+
+            <!-- crousal end -->
         </div>
+
+    </div>
     </div>
 
 
@@ -682,7 +541,7 @@
 
 
     <!-- <div class="footer"> -->
-    <!-- <div class="upper-footer w-full">
+    <div class="upper-footer w-full">
         <img id="image-1" class="positions" src="image1.png" alt="">
         <img id="image-2" class="positions" src="image2.png" alt="">
         <img id="image-3" class="positions" src="image3.png" alt="">
@@ -709,12 +568,12 @@
         <div class="upper-footer-button d-flex-wrap-center">
             <button class="upper-footer-buttonss">Sign Up for free Trial</button>
         </div>
-    </div> -->
+    </div>
 
     <footer class="lower-footer w-full">
         <div class="lower-footer-inner">
             <div class="d-flex-wrap-s-around">
-                <div class="background-color d-flex-wrap-s-between">
+                <div class="background-color d-flex-wrap-s-between footer-responsive">
                     <div>
                         <img id="footer-icon" src="Logo.png" alt="">
                         <div class="footer-para">
@@ -723,10 +582,10 @@
                         </div>
                         <div class="last">
                             <ul>
-                                <li> <button><i class="fa fa-angle-down" style="font-size:18px"></i></button> </li>
-                                <li><button><i class="fa fa-angle-down" style="font-size:18px"></i></button></li>
-                                <li><button><i class="fa fa-angle-down" style="font-size:18px"></i> </button></li>
-                                <li><button><i class="fa-brands fa-twitter"></i></button></li>
+                                <li> <button><i class="fa-brands fa-google" style="font-size:18px"></i></button> </li>
+                                <li><button><i class="fa-brands fa-twitter" style="font-size:18px"></i></button></li>
+                                <li><button><i class="fa-brands fa-instagram" style="font-size:18px"></i> </button></li>
+                                <li><button><i class="fa-brands fa-linkedin"></i></button></li>
                             </ul>
                         </div>
                     </div>
@@ -752,7 +611,7 @@
                         <li>UI Kit</li>
                     </ul>
                 </div>
-                <div class="padding-x-20">
+                <div class="padding-x-20 ">
                     <ul>
                         <li>Company</li>
                         <li>About</li>
@@ -761,7 +620,7 @@
                         <li>Careers</li>
                     </ul>
                 </div>
-                <div class="padding-x-20">
+                <div class="padding-x-20 more-footer">
                     <ul>
                         <li>More</li>
                         <li>Documentation</li>

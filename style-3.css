@@ -6,6 +6,14 @@
 
 }
 /* .section-3-title */
+.hash-tag-area{
+    background-color: #F9FBFE;
+}
+
+.hash-tag-container {
+    width: 70%;
+ /* width: 100%; */
+}
 .title-style{
     font-family: HK Groteak;
     /* font-size: 40px; */
@@ -163,134 +171,3 @@
     margin-top: 100px;
 }
 
-
-/* crousal-- */
-
-.lefts {
-    margin-top: 88px;
-}
-
-.inner-lefts {
-    /* width: 980px; */
-    width: 65.33%;
-    /* height: 56px; */
-    border: 1px solid red;
-    /* display: flex;
-    justify-content: space-between; */
-}
-
-.crousal-btn-style {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    border: 2px solid #183B56;
-    background-color: #F9FBFE;
-
-
-
-}
-
-#crousal-btn-1 {
-    border-color: #959EAD;
-}
-
-#crousal-btn-2 {
-    border-color: #183B56;
-    /* margin-right: -10px;    */
-}
-
-.lefts-title {
-    font-weight: 700;
-    font-family: HK Grotesk;
-    /* font-size: 36px; */
-    font-size: 2.25em;
-    line-height: 42px;
-    letter-spacing: 0.2px;
-    color: #183B56;
-}
-
-.lefts-title img {
-    margin: 0px 0px 0px -35px;
-    width: 16px;
-    height: 16px;
-}
-
-
-
-.last-cards {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 48px 0px 0px 217px;
-    flex-wrap: wrap;
-}
-
-.cards-size {
-    width: 555px;
-    /* width: 37%; */
-    height: 388px;
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    border-radius: 8px;
-
-}
-
-.last-cards-1-images ul {
-    display: flex;
-}
-
-.last-cards-1-images ul li {
-    list-style: none;
-}
-
-.last-cards-1-images ul li:first-child {
-    margin: 44px 36px 0px 0px;
-}
-
-.last-cards-1-images ul li:not(:first-of-type) {
-    margin: 62px 16px 0px 16px;
-}
-
-.last-cards-1-para {
-    display: flex;
-    justify-content: center;
-}
-
-.last-cards-1-para div {
-    /* width: 475px; */
-    width: 85.5%;
-    /* height: 108px; */
-    border: 1px solid black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    text-align: left;
-    color: #183B56;
-    margin-top: 36px;
-
-}
-
-.last-cards-1-para-1 {
-    font-family: GK Grotesk;
-    /* font-size: 20px; */
-    font-size: 1.25em;
-    line-height: 24px;
-    letter-spacing: 0.2px;
-    color: #183B56;
-
-    font-weight: 600;
-    margin: 31px 0px 0px 40px;
-
-}
-
-.last-cards-1-para-2 {
-    font-family: GK Grotesk;
-    /* font-size: 16px; */
-    font-size: 1em;
-    line-height: 28px;
-    /* letter-spacing: 0.2px; */
-    color: #5A7184;
-    font-weight: 400;
-    margin: 10px 0px 0px 40px;
-
-}
