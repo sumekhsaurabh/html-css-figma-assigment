@@ -51,6 +51,9 @@
 .topnav{
     padding : 39px 40px 0px 40px
 }
+.topnav img{
+    /* padding-top : 10px; */
+}
 
 .topnav a {
     font-weight: 600px;
@@ -137,7 +140,7 @@
     display: block;
     color: #183B56;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
     font-size: 17px;
     font-weight: 600;
@@ -151,7 +154,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 17px;
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 .topnav a:hover {
@@ -170,6 +173,9 @@
     .topnav a:not(:first-child) {
         display: none;
     }
+    .topnav a button{
+        display: none;
+    }
 
     .topnav a.icon {
         float: right;
@@ -184,8 +190,8 @@
 
     .topnav.responsive .icon {
         position: absolute;
-        right: 0px;
-        top: 0;
+        right: 40px;
+        top: 39px;
     }
 
     .topnav.responsive a {
@@ -1147,4 +1153,8 @@ img {
     color: #183B56;
     margin: 27px 0px 0px 45px;
 
+}
+/* #959EAD; */
+#crousal-btn-2 img{
+    color:#959EAD ;
 }
